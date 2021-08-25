@@ -425,8 +425,15 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+/* Projects styling */
 #covidVisualizer{
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../Projects/Covid19-visualizer/covidBackground.png);
+    background-size: 100% 100%;
+    color: black;
+}
+#travelAdvisor{
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../Projects/TravelAdvisor/TravelAdvisorBackground.png);
     background-size: 100% 100%;
     color: black;
 }
