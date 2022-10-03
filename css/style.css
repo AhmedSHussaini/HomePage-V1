@@ -444,6 +444,12 @@ section .title::after{
 }
 
 /* other projects section styling */
+#wordpressSite{
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../Projects/HCILighting/hcilighting.png);
+    background-size: 100% 100%;
+    color: black;
+}
+
 .other-projects .title::after{
     content: "Noteworthy";
 }
