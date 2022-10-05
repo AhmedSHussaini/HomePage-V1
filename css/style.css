@@ -453,6 +453,9 @@ section .title::after{
 .other-projects .title::after{
     content: "Noteworthy";
 }
+.other-projects .card:hover{
+    cursor:pointer;
+}
 .other-projects .carousel .card{
     background: #222;
     border-radius: 6px;
