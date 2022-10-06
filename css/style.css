@@ -8,9 +8,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* cursor: none; */
 }
 html{
     scroll-behavior: smooth;
+}
+body{
+    cursor: none;
 }
 /* Sidebar */
 .sidebar{
@@ -269,8 +273,11 @@ section .title::after{
     animation: gradient 15s ease alternate infinite;
     position: relative;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9aad15516038c2baaa5bfc9a3f606303245f4de1
 @keyframes gradient{
     0% {
         background-position: 0% 50%;
@@ -457,6 +464,9 @@ section .title::after{
 
 .other-projects .title::after{
     content: "Noteworthy";
+}
+.other-projects .card:hover{
+    cursor:pointer;
 }
 .other-projects .carousel .card{
     background: #222;
