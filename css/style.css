@@ -273,6 +273,11 @@ section .title::after{
     animation: gradient 15s ease alternate infinite;
     position: relative;
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 9aad15516038c2baaa5bfc9a3f606303245f4de1
 @keyframes gradient{
     0% {
         background-position: 0% 50%;
@@ -388,6 +393,9 @@ section .title::after{
 .work, .other-projects{
     color:#6be3b1;
     background: #111;
+}
+.other-projects .card:hover{
+    cursor:pointer;
 }
 .work .title::before,
 .other-projects .title::before{
