@@ -273,11 +273,7 @@ section .title::after{
     animation: gradient 15s ease alternate infinite;
     position: relative;
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 9aad15516038c2baaa5bfc9a3f606303245f4de1
 @keyframes gradient{
     0% {
         background-position: 0% 50%;
